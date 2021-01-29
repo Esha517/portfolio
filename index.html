@@ -1,144 +1,90 @@
-<html lang="en">
+<!DOCTYPE html>
 <html>
 <head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    />
 
-    <!-- Bootstrap Js -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
+img.one{
+height: 38%;
+width: 45%;
+}
+* {
+  box-sizing: border-box;
+}
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 440px; /* Should be removed. Only for demonstration */
+}
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
-      rel="stylesheet"
-    />
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body bgcolor="purple">
+<div class="row">
+  <div class="column" style="background-color:pink;">
+    <center><u><h1>Esha Sahoo</u></h1>
+    <img class="one" src="esha.jpg" alt="Avatar woman">
+    <h4>Hi! I'm Esha Sahoo.
 
-    <title>Portfolio</title>
-	</head>
-	<body class="is-preload">
+I'm currently a student of B.tech pursuing for Computer Science Engineering.
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
+I am hard working and passionate about my work.
 
-				<!-- About Me -->
-					<section class="about me style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-						<div class="content">
-                                                <div class="container pt-3">
-                                                <div class="row">
-                                                <div class="col-6">
-                                               <i class="fas fa-coe"></i>
-							<h1>About Me</h1>
-							<p class="major">
-                                                        <p>Hi! I'm Esha Sahoo.</p> 
-                                                        <p>I'm currently a student of B.tech pursuing for Computer Science Engineering.</p> 
-                                                        <p>I am hard working and passionate about my work.</p> 
-                                                        <p>I love to try new things.</p>
-							<ul class="actions stacked">
-								<li><a href="#first" class="button large wide smooth-scroll-middle">Let's Start</a></li>
-							</ul>
-						</div>
-                                               
-                                                
-						<div class="image">
-							<img src="Screenshot_20210114-211751_Photos.jpg" alt="" width="80" height"95" />
-						</div>    
-                                        
-					</section>
+I love to try new things.</h4>
+  </div>
+  <div class="column" style="background-color:red;">
+    <h2><u>My Skills</u></h2>
+    <p>
+Some of Programming languages that i know are below –<br>
+C<br>
+C++<br>
+HTML<br>
+SAS<br>
+CSS<br>
+   </p>
 
-				<!-- School/College -->
-					<section class="school/college style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div class="content">
-                                                <div id="studied"class="container">
-                                                <div class="col-6 pl-5 pt-5 pb-5">  
-							<h2>School/College</h2>
-							<p>
-                                                        Ryan International School
-                                                        </p>
-                                                        Manav Rachna International Institute of Research and Studies
-						</div>
-                                              </div>
-                                             </div>
-					</section>
+   <h2><u>Other Courses Learnt</u></h2>
+   <p>
+Programming with SAS, course offered by COUSERA<br><br>
+Learnt HTML CSS Bootstrap Git Github provided by Mentorif<br>
+  </p></p>
+  </div>
+  <div class="column" style="background-color:orange;">
+    <h2><u>Please contact for More Details</u></h2>
+    <h3>
+Phone - 
+(+91)9810571589<br><br>
 
-				<!-- Skills -->
-					<section class="skills style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-                                                <div id="studied"class="container">
-                                                <div class="col-6 pl-5 pt-5 pb-5"> 
-							<h3>Skills</h3>
-							<p>Some of <strong>Programming languages</strong> that i know are below &ndash;</p>
-                                                         <p> 
-                                                          C
-                                                        </p>
-                                                        <p>
-                                                        C++
-                                                        </p>
-                                                        <p>
-                                                        HTML
-                                                        </p>
-                                                        <p> 
-                                                        SAS
-                                                       </p>
-                                                       <p>
-                                                       CSS 
-                                                      </p>
-						</div>
-                                                </div>
-                                              </div>
-					</section>
+Email - 
+eshasahoo3@gmail.com<br><br>
+</h3>
+  </div>
 
-                     <!-- Other Courses Learnt -->
-					<section class="other style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div class="content">
-                                                <div id="studied"class="container">
-                                                <div class="col-6 pl-5 pt-5 pb-5"> 
-							<h4>Other Courses Learnt</h4>
-                                                        <p>
-                                                         Programming with SAS, course offered by COUSERA
-                                                         </p>
-							<p>
-                                                        Learnt HTML CSS Bootstrap Git Github provided by Mentorif
-                                                        </p>
-						</div>
-                                            </div>
-                                           </div>
-					</section>
+  <div class="column" style="background-color:grey;">
+    <h2><u>About this portfolio</u></h2>
+    <h3>This portfolio is made using HTML & CSS techniques as taught us by our mentor Gaurav Kumar<br><br>
+<a herf="boot.html">CLICK HERE TO SEE MY BOOTSTRAP WORK</a>
+</h3>
+  </div>
 
-			<!-- Social Media -->
-					<section>
-						<header>
-							<h3>Social Media</h3>
-						          </header>
-							 <div class="content">
-                                                <div id="studied"class="container">
-                                                <div class="col-6 pl-5 pt-5 pb-5"> 
-							  <h4>Let's Be Friends</h4>
-							   <ul class="icons">
-							   <li><a href="https://www.linkedin.com/in/esha-sahoo-010271203" class="icon brands style2 fab fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							   <li><a href="https://github.com/Esha517" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
-							   <li><a href="eshasahoo3@gmail.com" class="icon brands style2 fas fa-envelope"><span class="label">E-mail</span></a></li>
-							</ul>
-							</div>
-                                                     </div>
-                                                     </div>
-						</section>
+</div>
 
 </body>
 </html>
-					
