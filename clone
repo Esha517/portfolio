@@ -1,0 +1,6 @@
+~$git clone https://github.com/Esha517/Portfolio.git
+
+~$ cd Esha517.Portfolio,git
+~$git add --all
+~$git commit-m "Intial Commit"
+~$git push-u origin master
